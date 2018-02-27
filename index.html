@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+  
+<body>
+<section class="container">
+<h4>Electronic Calculator</h4>
+<form id="calculator">
+<table>
+<!--screen-->
+ <tr>
+  <td colspan="4">
+   <input type="text" id="display" placeholder = "0" disabled>
+  </td>
+ </tr>
+ <!--buttons-->
+ <div class = "buttons">
+ <!--first row-->
+  <tr>
+   <td><input class = "button" type="button"  value="1"></td>
+   <td><input class = "button" type="button"  value="2"></td>
+   <td><input class = "button" type="button"  value="3"></td>
+   <td><input class = "button" type="button" class="operator" value="+"></td>
+ </tr>
+
+<!--2nd row-->
+ <tr>
+  <td><input class = "button" type="button" value="4"></td>
+  <td><input class = "button" type="button" value="5"></td>
+  <td><input class = "button" type="button" value="6"></td>
+  <td><input class = "button" type="button" class="operator" value="-"></td>
+ </tr>
+
+<!--3rd row-->
+ <tr>
+  <td><input class = "button" type="button" value="7"></td>
+  <td><input class = "button" type="button" value="8"></td>
+  <td><input class = "button" type="button" value="9"></td>
+  <td><input class = "button" type="button" class="operator" value="*"></td>
+ </tr>
+
+<!--4th row-->
+ <tr>
+  <td><input type="button" id="clear" value="C"></td>
+  <td><input class = "button" type="button" value="0"></td>
+  <td><input class="button" id="decimal" type="button" value="."></td>
+  <td><input class = "button" type="button" class="operator" value="/"></td>
+ </tr>
+</div>  
+  
+  <!--5th row-->
+  <tr>
+   <td colspan="4"><input id = "equals" class = "button" type="button" value="="></td>
+  </tr>           
+  </table>
+ </form>
+</section> <!--end of calculator-->
+</body>
+
+
+</html>
