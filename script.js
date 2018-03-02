@@ -18,7 +18,7 @@ $(document).ready(function(){
    if(this.id === "equals"){
      totalString = inputs.join(""); //turn inputs into a string
      a.value = eval(totalString); //evaluate string and update display
-    // ("input").on("click", function(){ }) 
+     inputs=[""];
    //clear button
    } else if(this.id ==="clear"){
      inputs=[""]; //need this to actually reset the value
