@@ -6,6 +6,7 @@ Four-function calculator.
 
 •	User input creates a string, which the application evaluates when the user clicks the equals button.
 
+
 • Logic highlights:
  
   -User cannot input 2 decimals before an operator ('8.2.1+' not allowed). Regular Expressions used here.
@@ -15,6 +16,7 @@ Four-function calculator.
   -User cannot enter 2 operators in a row ('8+-' not allowed).
   
   -User cannot begin an equation with 'plus', 'divided by', or 'times.' Decimal and minus are ok. ('+8' not allowed '-8' is allowed).
+  
   
 • Ways to improve:
 
