@@ -1,4 +1,4 @@
-Four-function calculator.
+#Four-function calculator.
 
 •	jQuery, CSS, and HTML
 
